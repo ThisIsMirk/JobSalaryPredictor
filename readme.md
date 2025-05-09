@@ -49,42 +49,21 @@ The model successfully identifies linguistic patterns in job descriptions that c
 
 ### Top Predictive Words
 
-- **High Salary Words**: [Varies based on model results]
-- **Low Salary Words**: [Varies based on model results]
+- **High Salary Words**: ['operations' 'architect' 'leadership' 'managing' 'consumer' 'lead' 'head'
+ 'strategic' 'director' 'senior']
+- **Low Salary Words**: ['applicants' 'customer' 'hours' 'training' 'required' 'assistant'
+ 'standard' 'database' 'basic' 'people']
+
+## Best Model 
+The best model is LogisticRegression(C=10, solver='liblinear')
+with accuracy of 81%
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 - pandas
 - numpy
 - scikit-learn
 - matplotlib
 - seaborn
 - nltk
-
-## Usage
-
-1. Ensure you have the "Train_rev1.csv" dataset in your working directory
-2. Install the required packages:
-   ```
-   pip install pandas numpy scikit-learn matplotlib seaborn nltk
-   ```
-3. Run the script:
-   ```
-   python salary_prediction.py
-   ```
-
-## Future Improvements
-
-- Experiment with more advanced NLP techniques (e.g., word embeddings, BERT)
-- Incorporate additional features from job postings (location, industry, etc.)
-- Implement more granular salary prediction (multiple categories or regression)
-- Create a simple web application for making predictions on new job descriptions
-
-## License
-
-[Insert your license information here]
-
-## Contact
-
-[Your contact information]
